@@ -28,12 +28,7 @@ takeQueue n (x:xs) = let cont = (n - x) in
     then x : takeQueue cont xs
     else []
 
-orderQueue :: [Int] -> [Int] -> [Int]
-orderQueue xs ys = drop (length xs) ys ++ xs
-
 howMany xs n = foldr (\x r n -> if n < x then 0 else 1 + r (n-x)) (\_ -> 0) xs n
-
-reorder xs n = drop n xs ++ take n xs
 
 startRides' :: ([Int],[Int]) -> Int
 startRides' ([0, k, g], xs) = 0
