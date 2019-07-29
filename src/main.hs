@@ -21,13 +21,6 @@ enumCases :: Int-> [Int] -> [(Int,Int)]
 enumCases n [] = []
 enumCases n (x:xs) = (n,x) : enumCases (n+1) xs
 
-takeQueue :: Int -> [Int] -> [Int]
-takeQueue n [] = []
-takeQueue n (x:xs) = let cont = (n - x) in 
-  if(cont >= 0)
-    then x : takeQueue cont xs
-    else []
-
 howMany xs n = foldr (\x r n -> if n < x then 0 else 1 + r (n-x)) (\_ -> 0) xs n
 
 startRides' :: ([Int],[Int]) -> Int
