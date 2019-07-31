@@ -1,6 +1,6 @@
 # Google Code Jam 2010
 
-Here's my Haskell solution for the problem C of the qualification round of 2010.
+Here's my Haskell solution for problem C of the 2010 qualification round.
 
 ## Quick resume
 
