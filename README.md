@@ -6,7 +6,7 @@ Here's my Haskell solution for problem C of the 2010 qualification round.
 
 The program is made for a roller coaster who makes some rides over day and it returns the total money that it did.
 
-[You can see the full explanation here.](https://code.google.com/codejam/contest/433101/dashboard#s=p2) 
+[You can see the full explanation here.](https://codingcompetitions.withgoogle.com/codejam/round/0000000000432b7e/0000000000432f38) 
 
 ## Important information
 
